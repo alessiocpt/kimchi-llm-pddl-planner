@@ -1,0 +1,5 @@
+{
+  "template_type": "dataset",
+  "template_1": "PDDL planning\n\n### Problem:\n%problem%\n\n### Plan:\n%plan%",
+  "template_2": "PDDL planning\n\n### Problem:\n%problem%\n\n### Domain:\n%plan%\n\n### Response:\n%completion%"
+}

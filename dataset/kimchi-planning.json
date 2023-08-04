@@ -1,0 +1,4 @@
+{
+    "problem,plan": "PDDL planning\n\n### Problem:\n%problem%\n\n### Plan:\n%plan%",
+    "problem,domain,plan": "PDDL planning\n\n### Problem:\n%problem%\n\n### Domain:\n%plan%\n\n### Response:\n%completion%"
+}
