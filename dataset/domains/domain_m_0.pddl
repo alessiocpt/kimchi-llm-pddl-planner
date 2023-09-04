@@ -8,12 +8,11 @@
 	(angle-before ?a - angle ?a1 - angle)
 	(angle_joint ?a - angle ?j - joint)
 	(link-before ?l - link ?l1 - link)
-	(fixed ?j - joint)
 	(grasp ?g - gripper ?l - link)
 	(in-hand ?l - link)
 	(in-centre ?j - joint)
 	(free ?g - gripper)
-	(affected ?j -joint ?l - link ?j1 - joint) ;; nel momento in cui uso un link come child, per ruotare il joint ?j1, tutti i joint successivi cambiano angolo.
+	(affected ?j - joint ?l - link ?j1 - joint) ;; nel momento in cui uso un link come child, per ruotare il joint ?j1, tutti i joint successivi cambiano angolo.
 )
 
 ;;;;;BASIC OPERATORS
